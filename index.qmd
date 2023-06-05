@@ -35,7 +35,7 @@ Links: [Linkedin](https://www.linkedin.com/in/dmendezsev/){target="_blank"}, [Gi
 
 -   (*2010 - 2014*) **PhD** at [TU Delft]{.underline}: ![TUDelft](delft.png){.column-margin} My main research topic was the determination and modelling of polyphenol properties. I first determined of the properties of polyphenols in complex mixtures by using different analytical techniques (UPLC, FTIR, etc.) and high throughput techniques, namely the Tecan liquid handling system to generate data. I designed adsorption experiments (DoE) in order to regress low uncertainty parameters (*see publication 5*). I regressed and fit parameters for activity coefficients, solubility and adsorption isotherms (*see publication 4, 5, 6 7, 8*) comparing models, looking at uncertainty and error propagation and studying the importance of the different parameters on MATLAB. ![](white.png){.column-margin}
 
--   (*2003 - 2010*) **PhD** at [Universidad de Valladolid]{.underline}: ![UVa](uva.jpeg){.column-margin} Focus on chemical and biochemical plant design and techno-economic analysis, knowledge of transport phenomena, kinetics and thermodynamic fundamentals. During which I fit solubility of gases in ionic liquids to a GC-EoS using MATLAB (*see publication 1, 2*)
+-   (*2003 - 2010*) **Chemical Engineering** at [Universidad de Valladolid]{.underline}: ![UVa](uva.jpeg){.column-margin} Focus on chemical and biochemical plant design and techno-economic analysis, knowledge of transport phenomena, kinetics and thermodynamic fundamentals. During which I fit solubility of gases in ionic liquids to a GC-EoS using MATLAB (*see publication 1, 2*)
 
 ## Additional courses
 

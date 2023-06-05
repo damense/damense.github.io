@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.475">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>David Méndez Sevillano</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#work-experience" id="toc-work-experience" class="nav-link" data-scroll-target="#work-experience">Work Experience</a></li>
+  <li><a href="#additional-courses" id="toc-additional-courses" class="nav-link" data-scroll-target="#additional-courses">Additional courses</a></li>
+  <li><a href="#software-experience" id="toc-software-experience" class="nav-link" data-scroll-target="#software-experience">Software Experience</a></li>
+  <li><a href="#other" id="toc-other" class="nav-link" data-scroll-target="#other">Other</a></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">David Méndez Sevillano</h1>
+<p class="subtitle lead">Curriculum Vitae</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>My name is David Méndez Sevillano (<em>he/him</em>) and I currently hold a position as <strong>Data Scientist</strong> in Janssen Vaccines and Prevention. I’m 38 and I’ve lived in Delft, the Netherlands for 12 years. I am passionate about finding not-obvious meaning in data and <strong>visualizing</strong> it to convey a story.</p>
+<p>Links: <a href="https://www.linkedin.com/in/dmendezsev/" target="_blank">Linkedin</a>, <a href="https://github.com/damense" target="_blank">Github</a></p>
+</section>
+<section id="work-experience" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="work-experience">Work Experience</h2>
+<ul>
+<li><p>(<em>2020 - current</em>) <strong>Data Scientist</strong> at <u>Janssen Vaccines and Prevention</u>:  As part of the Drug Product Development department I have coordinated efforts on both data engineering and data science projects. I am lead of the data capture projects by gathering and centralizing all data sources into a data lake. I act as lead and developer for several ML, statistical modelling and data visualization projects and develop data pipelines to dashboards for automatic reporting. Moreover I am involved into defining the digital strategy for the organization. I also lead several initiatives at a site, department, group and subgroup level mentoring and leading a group of 6 people.</p></li>
+<li><p>(<em>2017 - 2020</em>) <strong>Process Engineer</strong> at <u>Process Design Center</u>:  My main responsibilities within PDC are the process design and techno-economic evaluation of bioprocesses. In most projects, lab data needs to interpreted and modelled in order to simulate and optimize the process. Modelling has been done using from polynomic equations to complex activity coefficient models or kinetics. Moreover I have used Octave and python for developing and I have strengthen my knowledge of Aspen Plus for simulation and regression of parameters (together with their uncertainty).</p></li>
+<li><p>(<em>2016-2017</em>) <strong>Head Reserarcher and docent</strong> at <u>Center of Expertise for the Biobased Economy</u>:  My responsibilities within this position were the research and development of a medium scale separation and purification unit of proteins from duckweed and teaching thermodynamics, separation technology and MATLAB. On top of that I collaborated with a PhD student from Wageningen UR to model solubility of amino-acids in mixed solvents according to different models of increasing complexity using MATLAB (<em>see publication 11</em>)</p></li>
+<li><p>(<em>2014-2015</em>) <strong>Post-doc</strong> at <u>TU Delft</u>:  My scientific responsibilities were to develop a preparative fractionation protocol to fractionate polyphenols from complex mixtures using an Äkta system. I fitted a complex chromatogram to a sum of multiple peaks that allowed me to decide how the fractionation needed to happen. These fractions were further used to find interesting health related molecules (<em>see publication 12, 13, 14</em>) </p></li>
+<li><p>(<em>2010 - 2014</em>) <strong>PhD</strong> at <u>TU Delft</u>:  My main research topic was the determination and modelling of polyphenol properties. I first determined of the properties of polyphenols in complex mixtures by using different analytical techniques (UPLC, FTIR, etc.) and high throughput techniques, namely the Tecan liquid handling system to generate data. I designed adsorption experiments (DoE) in order to regress low uncertainty parameters (<em>see publication 5</em>). I regressed and fit parameters for activity coefficients, solubility and adsorption isotherms (<em>see publication 4, 5, 6 7, 8</em>) comparing models, looking at uncertainty and error propagation and studying the importance of the different parameters on MATLAB. </p></li>
+<li><p>(<em>2003 - 2010</em>) <strong>Chemical Engineering</strong> at <u>Universidad de Valladolid</u>:  Focus on chemical and biochemical plant design and techno-economic analysis, knowledge of transport phenomena, kinetics and thermodynamic fundamentals. During which I fit solubility of gases in ionic liquids to a GC-EoS using MATLAB (<em>see publication 1, 2</em>)</p></li>
+</ul>
+<div class="no-row-height column-margin column-container"><img src="logo-janssen.gif" class="img-fluid" alt="Janssen"><img src="pdc-logo.png" class="img-fluid" alt="PDC"><img src="coebbe-logo.jpg" class="img-fluid" alt="CoE BBE"><img src="delft.png" class="img-fluid" alt="TUDelft"><img src="white.png" class="img-fluid"><img src="delft.png" class="img-fluid" alt="TUDelft"><img src="white.png" class="img-fluid"><img src="uva.jpeg" class="img-fluid" alt="UVa"></div></section>
+<section id="additional-courses" class="level2">
+<h2 class="anchored" data-anchor-id="additional-courses">Additional courses</h2>
+<p>Statistical Subject Matter Expert Course (Janssen); Data Science using R; Aspen Plus, Handling solids; Introduction into COMSOL (TU Delft); Protein chromatography (BOKU Vienna) Thermodynamics of process technology (TU Delft), Adsorptive processes (TU Eindhoven)</p>
+</section>
+<section id="software-experience" class="level2">
+<h2 class="anchored" data-anchor-id="software-experience">Software Experience</h2>
+<p>R, Python, Aspen, MATLAB, Microsoft 365</p>
+</section>
+<section id="other" class="level2">
+<h2 class="anchored" data-anchor-id="other">Other</h2>
+<ul>
+<li><em>Languages</em>: Spanish (Native), English (C2), Dutch (C1)</li>
+<li><em>Hobbies</em>: Travelling, running, boardgames, filmhuis movies, data visualization</li>
+</ul>
+</section>
+<section id="publications" class="level2">
+<h2 class="anchored" data-anchor-id="publications">Publications</h2>
+<ol type="1">
+<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0021961409002742">J. Chem. Thermodyn. 2010, 42, 524-529</a></li>
+<li><a href="https://pubs.acs.org/doi/abs/10.1021/ie901989f">Ind. Eng. Chem. Res. 2010, 49, 4966–4973</a></li>
+<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0896844612002008">J Supercritical Fluids 2012, 69, 113-116</a></li>
+<li><a href="https://pubs.acs.org/doi/abs/10.1021/ie400113t">Ind. Eng. Chem. Res. 2013, 52, 6039-6048</a></li>
+<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0960308514000182">Food and Bioproducts Processing 2014, 92 (2), pp.&nbsp;192-198</a></li>
+<li><a href="https://pubs.acs.org/doi/abs/10.1021/ie5026419">Ind. and Eng. Chem. Res. 2014, 53 (39), pp.&nbsp;15245-15252</a></li>
+<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0021967314004269">J. Chrom. A 2014, 1341, pp.&nbsp;41-49</a></li>
+<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0378381214005664">Fluid Phase Equilibria, 2014, 384, pp.&nbsp;82-88</a></li>
+<li><a href="https://pubs.acs.org/doi/abs/10.1021/ie5038962">Ind. and Eng. Chem. Res. 2015, 54 (2), pp.&nbsp;691-699</a></li>
+<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0021967316314182">J. Chrom. A. 2016, 1476, 25-34</a></li>
+<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0378381217304740">Fluid Phase Equilibria, 2018, 459, 158-169</a></li>
+<li><a href="https://link.springer.com/article/10.1007/s11101-017-9532-2">Phytochemistry reviews 2018, 17(2), 291-326</a></li>
+<li><a href="https://academic.oup.com/plphys/article/179/3/969/6116733">Plan physiology, 2019, 179 (3), 969-985</a></li>
+<li><a href="https://www.nature.com/articles/s41467-023-37561-2">Nature Communications 2023, (14) 1918</a></li>
+</ol>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

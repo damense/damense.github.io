@@ -19,13 +19,15 @@ format:
 
 ## Introduction
 
-My name is David Méndez Sevillano (*he/him*) and I currently hold a position as **Data Scientist** in Janssen Vaccines and Prevention. I'm 38 and I've lived in Delft, the Netherlands for 12 years. I am passionate about finding not-obvious meaning in data and **visualizing** it to convey a story.
+My name is David Méndez Sevillano (*he/him*) and I currently hold a position as Data Scientist in Janssen Vaccines and Prevention. I'm 38 and I've lived in Delft, the Netherlands for 12 years. My phone is *06-24990697* and my email address is *d.mendsev\@gmail.com.*
 
-Links: [Linkedin](https://www.linkedin.com/in/dmendezsev/){target="_blank"}, [Github](https://github.com/damense){target="_blank"}
+Links: [Linkedin](https://www.linkedin.com/in/dmendezsev/), [Github](https://github.com/damense)
 
 ## Work Experience
 
--   (*2021 - current*) **Data Scientist** at [Janssen Vaccines and Prevention]{.underline}: ![Janssen](logo-janssen.gif){.column-margin} As part of the Drug Product Development department I have coordinated efforts on both data engineering and data science projects. I am lead of the data capture projects by gathering and centralizing all data sources into a data lake. I act as lead and developer for several ML, statistical modelling and data visualization projects and develop data pipelines to dashboards for automatic reporting. Moreover I am involved into defining the digital strategy for the organization. I also lead several initiatives at a site, department, group and subgroup level mentoring and leading a group of 6 people.
+-   (*2023 - current*) **MSAT Data Science Lead** at [Galapagos]{.underline}: ![GLPG](Galapagos-logo.jpg){.column-margin} Part of the MSAT Global department I lead a team of 2 people in which we develop data pipelines to homogenize and wrangle data from different sources into a unified view. Moreover, we deploy different types of models to analyze and extract as much info from all the data we have in house using different statistical methods.
+
+-   (*2020 - 2023*) **Data Scientist** at [Janssen Vaccines and Prevention]{.underline}: ![Janssen](logo-janssen.gif){.column-margin} As part of the Drug Product Development department I have coordinated efforts on both data engineering and data science projects. I am lead of the data capture projects by gathering and centralizing all data sources into a data lake. I act as lead and developer for several ML, statistical modelling and data visualization projects and develop data pipelines to dashboards for automatic reporting. Moreover I am involved into defining the digital strategy for the organization. I also lead several initiatives at a site, department, group and subgroup level mentoring and leading a group of 6 people.
 
 -   (*2017 - 2020*) **Process Engineer** at [Process Design Center]{.underline}: ![PDC](pdc-logo.png){.column-margin} My main responsibilities within PDC are the process design and techno-economic evaluation of bioprocesses. In most projects, lab data needs to interpreted and modelled in order to simulate and optimize the process. Modelling has been done using from polynomic equations to complex activity coefficient models or kinetics. Moreover I have used Octave and python for developing and I have strengthen my knowledge of Aspen Plus for simulation and regression of parameters (together with their uncertainty).
 
@@ -35,7 +37,7 @@ Links: [Linkedin](https://www.linkedin.com/in/dmendezsev/){target="_blank"}, [Gi
 
 -   (*2010 - 2014*) **PhD** at [TU Delft]{.underline}: ![TUDelft](delft.png){.column-margin} My main research topic was the determination and modelling of polyphenol properties. I first determined of the properties of polyphenols in complex mixtures by using different analytical techniques (UPLC, FTIR, etc.) and high throughput techniques, namely the Tecan liquid handling system to generate data. I designed adsorption experiments (DoE) in order to regress low uncertainty parameters (*see publication 5*). I regressed and fit parameters for activity coefficients, solubility and adsorption isotherms (*see publication 4, 5, 6 7, 8*) comparing models, looking at uncertainty and error propagation and studying the importance of the different parameters on MATLAB. ![](white.png){.column-margin}
 
--   (*2003 - 2010*) **Chemical Engineering** at [Universidad de Valladolid]{.underline}: ![UVa](uva.jpeg){.column-margin} Focus on chemical and biochemical plant design and techno-economic analysis, knowledge of transport phenomena, kinetics and thermodynamic fundamentals. During which I fit solubility of gases in ionic liquids to a GC-EoS using MATLAB (*see publication 1, 2*)
+-   (*2003 - 2010*) **PhD** at [Universidad de Valladolid]{.underline}: ![UVa](uva.jpeg){.column-margin} Focus on chemical and biochemical plant design and techno-economic analysis, knowledge of transport phenomena, kinetics and thermodynamic fundamentals. During which I fit solubility of gases in ionic liquids to a GC-EoS using MATLAB (*see publication 1, 2*)
 
 ## Additional courses
 

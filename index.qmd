@@ -22,7 +22,7 @@ engine: knitr
 
 My name is David Méndez Sevillano (*he/him*) and I currently hold a position as MSAT Data Science Lead in Galapagos. I'm `r as.numeric(floor((lubridate::today()-lubridate::date("1985-01-31"))/365.25))` years old and I've lived in Delft, the Netherlands for `r as.numeric(floor((lubridate::today()-lubridate::date("2010-11-15"))/365.25))` years. My email address is *d.mendsev\@gmail.com.*
 
-Links: [Linkedin](https://www.linkedin.com/in/dmendezsev/){target="_blank"}, [Github](https://github.com/damense){target="_blank"}, [Data Visualization Portfolio in Pixelfed](https://pixelfed.social/i/web/profile/786259471965841448){target="_blank"}
+Links: [Linkedin](https://www.linkedin.com/in/dmendezsev/){target="_blank"}, [Github](https://github.com/damense){target="_blank"}, [Data Visualization Portfolio in Pixelfed](https://portfolio.pixelfed.social/dmendsev){target="_blank"}
 
 ## Work Experience
 

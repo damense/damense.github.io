@@ -15,13 +15,14 @@ format:
     fontfamily: libertinus
     colorlinks: true
     fontsize: '12'
+engine: knitr
 ---
 
 ## Introduction
 
-My name is David Méndez Sevillano (*he/him*) and I currently hold a position as Data Scientist in Janssen Vaccines and Prevention. I'm 38 and I've lived in Delft, the Netherlands for 12 years. My phone is *06-24990697* and my email address is *d.mendsev\@gmail.com.*
+My name is David Méndez Sevillano (*he/him*) and I currently hold a position as MSAT Data Science Lead in Galapagos. I'm `r as.numeric(floor((lubridate::today()-lubridate::date("1985-01-31"))/365.25))` years old and I've lived in Delft, the Netherlands for `r as.numeric(floor((lubridate::today()-lubridate::date("2010-11-15"))/365.25))` years. My email address is *d.mendsev\@gmail.com.*
 
-Links: [Linkedin](https://www.linkedin.com/in/dmendezsev/), [Github](https://github.com/damense)
+Links: [Linkedin](https://www.linkedin.com/in/dmendezsev/){target="_blank"}, [Github](https://github.com/damense){target="_blank"}, [Data Visualization Portfolio in Pixelfed](https://pixelfed.social/i/web/profile/786259471965841448){target="_blank"}
 
 ## Work Experience
 
@@ -45,7 +46,7 @@ Statistical Subject Matter Expert Course (Janssen); Data Science using R; Aspen 
 
 ## Software Experience
 
-R, Python, Aspen, MATLAB, Microsoft 365
+R (*This CV has been written in R*), Domino, Python, Aspen, MATLAB, Microsoft 365
 
 ## Other
 

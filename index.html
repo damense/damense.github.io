@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -78,8 +78,8 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>My name is David Méndez Sevillano (<em>he/him</em>) and I currently hold a position as Data Scientist in Janssen Vaccines and Prevention. I’m 38 and I’ve lived in Delft, the Netherlands for 12 years. My phone is <em>06-24990697</em> and my email address is <em>d.mendsev@gmail.com.</em></p>
-<p>Links: <a href="https://www.linkedin.com/in/dmendezsev/">Linkedin</a>, <a href="https://github.com/damense">Github</a></p>
+<p>My name is David Méndez Sevillano (<em>he/him</em>) and I currently hold a position as MSAT Data Science Lead in Galapagos. I’m 39 years old and I’ve lived in Delft, the Netherlands for 14 years. My email address is <em>d.mendsev@gmail.com.</em></p>
+<p>Links: <a href="https://www.linkedin.com/in/dmendezsev/" target="_blank">Linkedin</a>, <a href="https://github.com/damense" target="_blank">Github</a>, <a href="https://pixelfed.social/i/web/profile/786259471965841448" target="_blank">Data Visualization Portfolio in Pixelfed</a></p>
 </section>
 <section id="work-experience" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="work-experience">Work Experience</h2>
@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="software-experience" class="level2">
 <h2 class="anchored" data-anchor-id="software-experience">Software Experience</h2>
-<p>R, Python, Aspen, MATLAB, Microsoft 365</p>
+<p>R (<em>This CV has been written in R</em>), Domino, Python, Aspen, MATLAB, Microsoft 365</p>
 </section>
 <section id="other" class="level2">
 <h2 class="anchored" data-anchor-id="other">Other</h2>
@@ -165,18 +165,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -208,7 +197,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -216,7 +227,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

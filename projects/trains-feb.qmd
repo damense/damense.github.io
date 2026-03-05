@@ -1,0 +1,40 @@
+---
+title: "Interrail trip February"
+description: "Map of my train trips last February using an interrail pass"
+date: "2026-03-05"
+image: "../images/trains-feb.jpg"
+categories: [R, maps, trains]
+toc: true
+---
+
+![](../images/trains-feb.jpg){.project-hero-img fig-alt="Map of my train trips last February using an interrail pass"}
+
+::: {.project-meta}
+::: {.meta-item}
+📅 March 2026
+:::
+::: {.meta-item}
+🛠️ R, map, trains
+:::
+::: {.meta-item}
+📊 [Data source](OSM)
+<!-- ::: -->
+<!-- ::: {.meta-item} -->
+<!-- 💻 [Code on GitHub](https://github.com/yourusername/repo) -->
+:::
+:::
+
+## What & Why
+
+I love traveling through Europe by train and every time I do I share on my social
+networks the maps of the trips I make. Initially I shared relatively simple maps
+made by the Rail Planner app but they didn't look accurate enough. That took me down
+a rabbit hole I'm still in.
+
+## Approach
+
+I get the railway data from OSM, then look up the station coordinates using the DB API
+and use dodgr to calculate the shortest path from station to station along the railways
+This I lay over a political map of Europe. Then I use elevatr to get the elevation of 
+each of the different pixels which I use for coloring the map.
+

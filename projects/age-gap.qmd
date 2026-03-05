@@ -1,0 +1,39 @@
+---
+title: "Age gaps in movie couples across the years"
+description: "Scatterplot showing the age gap between the actors playing a romantic relationship on screen. "
+date: "2026-03-05"
+image: "../images/measures-rodents.jpg"
+categories: [R, Tidytuesday, Scatterplot]
+toc: true
+---
+
+![](../images/measures-rodents.jpg){.project-hero-img fig-alt="Scatterplot showing the age gap between the actors playing a romantic relationship on screen."}
+
+::: {.project-meta}
+::: {.meta-item}
+📅 March 2026
+:::
+::: {.meta-item}
+🛠️ R, ggplot2, dplyr
+:::
+::: {.meta-item}
+📊 [Data source](https://github.com/rfordatascience/tidytuesday/blob/main/data/2023/2023-02-14/readme.md)
+<!-- ::: -->
+<!-- ::: {.meta-item} -->
+<!-- 💻 [Code on GitHub](https://github.com/yourusername/repo) -->
+:::
+:::
+
+## What & Why
+
+I was curious about the age gap evolution through time wishing that they would narrow the closer we are to today. 
+The message as always ended up being more complicated. The maximum age gap has been decreasing since the early
+2000s
+
+## Approach
+
+The basic plot is a relatively straight forward scatterplot. The magic happened 
+when checking actors that appear multiple times in the dataset and see the age of
+all their onscreen partners at the time of each of their film. The using color for
+showing each of the actors and text to give an explanation to the line joining the dots.
+

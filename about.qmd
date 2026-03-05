@@ -1,0 +1,41 @@
+---
+title: "About"
+toc: false
+---
+
+## Hi, I'm David.
+
+I'm a data scientist working in pharmaceutical manufacturing, where I focus
+on process analytics and data science. My day-to-day involves turning complex
+manufacturing data into clear, actionable insights — often with R, ggplot2,
+and Shiny.
+
+I care about making data visualizations that are not just accurate but genuinely
+useful and interesting to look at. I'm a regular participant in
+[TidyTuesday](https://github.com/rfordatascience/tidytuesday) and enjoy the
+challenge of finding stories in unfamiliar datasets.
+
+### What I'm learning
+
+I'm currently expanding into:
+
+- **D3.js** for interactive, web-native data visualization
+- **Bayesian statistics & causal inference** via Richard McElreath's
+  *Statistical Rethinking*
+- **Data strategy and governance** through a course at Imperial College
+  and Simplilearn
+
+### Tools I work with
+
+**Primary:** R (tidyverse, ggplot2, Shiny) · Git · Quarto
+
+**Growing:** Python (pandas, numpy) · D3.js · JavaScript · SQL
+
+**Domain:** GxP environments · process analytics · statistical process control ·
+equivalence testing · mixed models
+
+### Get in touch
+
+- [GitHub](https://github.com/damense)
+- [LinkedIn](https://www.linkedin.com/in/dmendezsev/)
+- Email: d.mendsev@gmail.com

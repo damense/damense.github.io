@@ -1,0 +1,43 @@
+---
+title: "Tornadoes on the Fried chicken chef states"
+description: "Tornadoes in the US states that form a shape of a Chef with a plate of fried chicken."
+date: "2026-03-05"
+image: "../images/tornados-kfc.jpg"
+categories: [R, Tidytuesday, map, Barchart]
+toc: true
+---
+
+![](../images/tornados-kfc.jpg){.project-hero-img fig-alt="Tornadoes in the US states that form a shape of a Chef with a plate of fried chicken."}
+
+::: {.project-meta}
+::: {.meta-item}
+📅 March 2026
+:::
+::: {.meta-item}
+🛠️ R, ggplot2, dplyr
+:::
+::: {.meta-item}
+📊 [Data source](https://github.com/rfordatascience/tidytuesday/blob/main/data/2023/2023-05-16/readme.md)
+<!-- ::: -->
+<!-- ::: {.meta-item} -->
+<!-- 💻 [Code on GitHub](https://github.com/yourusername/repo) -->
+:::
+:::
+
+## What & Why
+
+The dataset contained a historical overview of tornadoes in the US and an meme
+came to memory where you could see that the states of Minnesota, Iowa, Missouri,
+Kentucky, Arkansas, Tennessee and Louisiana formed the silhouette of a chef with
+a plate of food on their hands. Since the food corresponds to the state of Kentucky,
+it made sense to think of it as fried chicken.
+I was also curious to see if the incidence of tornadoes had increase with time
+and it does appear so.
+
+## Approach
+
+You can see the aforementioned chef and next to each of the states, a barchart of 
+number of tornadoes. Moreover, for higher magnitude tornadoes, a line is drawned
+from the coordinates where it started using color for magnitude and length for the
+miles it traveled.
+

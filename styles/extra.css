@@ -1,0 +1,17 @@
+/* Smooth link underlines */
+a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+a:hover {
+  border-bottom-color: currentColor;
+}
+
+/* Remove underline from card links and nav */
+.project-card a,
+.navbar a,
+.nav-footer a {
+  border-bottom: none;
+}

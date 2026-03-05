@@ -1,0 +1,172 @@
+/*-- scss:defaults --*/
+
+// Fonts — swap these for your own personality
+$font-family-sans-serif: "Source Sans 3", "Source Sans Pro", sans-serif;
+$font-family-monospace: "JetBrains Mono", "Fira Code", monospace;
+$headings-font-family: "Fraunces", Georgia, serif;
+
+// Colors — a restrained palette you can customize
+$body-bg: #fafafa;
+$body-color: #2d2d2d;
+$link-color: #1d6a96;
+$link-hover-color: #0e3d5a;
+
+// Accent color for tags, highlights, hover states
+$accent: #e07a5f;
+$accent-light: #f4d1c5;
+
+/*-- scss:rules --*/
+
+// Import fonts
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Source+Sans+3:wght@300;400;600&family=JetBrains+Mono:wght@400&display=swap');
+
+// Smooth, readable body text
+body {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+}
+
+// Headings with character
+h1, h2, h3, h4 {
+  font-family: $headings-font-family;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+// Navbar tweaks
+.navbar {
+  font-family: $font-family-sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+// Card grid for portfolio
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.8rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  }
+
+  img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+
+  .card-body {
+    padding: 1.2rem 1.4rem;
+  }
+
+  .card-title {
+    font-family: $headings-font-family;
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    color: $body-color;
+  }
+
+  .card-description {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.8rem;
+  }
+
+  .card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .tag {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    background: $accent-light;
+    color: darken($accent, 15%);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+}
+
+// Hero section for landing page
+.hero {
+  text-align: center;
+  padding: 4rem 1rem 3rem;
+  max-width: 700px;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    font-weight: 300;
+  }
+}
+
+// Project detail pages
+.project-hero-img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  background: #f0f0f0;
+}
+
+.project-meta {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin: 1rem 0 2rem;
+  font-size: 0.9rem;
+  color: #666;
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+}
+
+// Footer
+.nav-footer {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+// Responsive
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}

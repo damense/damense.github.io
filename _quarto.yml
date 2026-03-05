@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "David Méndez - Data Visualization"
+  description: "Data visualization portfolio showcasing work in R, D3.js, and interactive analytics"
+  site-url: "https://damense.github.io"
+
+  navbar:
+    background: dark
+    foreground: light
+    left:
+      - text: "Portfolio"
+        href: portfolio.qmd
+      - text: "About"
+        href: about.qmd
+    right:
+      - icon: github
+        href: https://github.com/damense
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/dmendezsev/
+        aria-label: LinkedIn
+
+  page-footer:
+    center: |
+      Built with [Quarto](https://quarto.org) ·
+      © 2026 David Mendez
+
+  open-graph: true
+  twitter-card: true
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles/custom.scss]
+    css: styles/extra.css
+    toc: false
+    code-tools: false
+    smooth-scroll: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto

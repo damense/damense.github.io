@@ -8,7 +8,7 @@ page-layout: full
 # David Méndez Sevillano
 
 ::: {.subtitle}
-Data Scientist · Visualization · R · D3.js (learning)
+Data Scientist · Visualization · R · Python · D3.js (learning)
 :::
 
 I build data visualizations that make complex information clear and compelling.

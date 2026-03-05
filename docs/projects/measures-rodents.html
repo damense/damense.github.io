@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2026-03-05">
-<meta name="description" content="Releive representation of the Benelux with the river Maas through it">
+<meta name="description" content="Visual of ranges of weight and length of different desert rodents Arizona">
 
-<title>Under the rivers – David Méndez - Data Visualization</title>
+<title>Desert Rodents – David Méndez - Data Visualization</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,13 +74,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles/extra.css">
-<meta property="og:title" content="Under the rivers – David Méndez - Data Visualization">
-<meta property="og:description" content="Releive representation of the Benelux with the river Maas through it">
-<meta property="og:image" content="https://damense.github.io/images/river-maas.jpg">
+<meta property="og:title" content="Desert Rodents – David Méndez - Data Visualization">
+<meta property="og:description" content="Visual of ranges of weight and length of different desert rodents Arizona">
+<meta property="og:image" content="https://damense.github.io/images/measures-rodents.jpg">
 <meta property="og:site_name" content="David Méndez - Data Visualization">
-<meta name="twitter:title" content="Under the rivers – David Méndez - Data Visualization">
-<meta name="twitter:description" content="Releive representation of the Benelux with the river Maas through it">
-<meta name="twitter:image" content="https://damense.github.io/images/river-maas.jpg">
+<meta name="twitter:title" content="Desert Rodents – David Méndez - Data Visualization">
+<meta name="twitter:description" content="Visual of ranges of weight and length of different desert rodents Arizona">
+<meta name="twitter:image" content="https://damense.github.io/images/measures-rodents.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -134,25 +134,32 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-why" id="toc-what-why" class="nav-link active" data-scroll-target="#what-why">What &amp; Why</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Under the rivers</h1>
+<h1 class="title">Desert Rodents</h1>
   <div class="quarto-categories">
     <div class="quarto-category">R</div>
-    <div class="quarto-category">maps</div>
-    <div class="quarto-category">rayshaders</div>
+    <div class="quarto-category">Tidytuesday</div>
+    <div class="quarto-category">Boxplot</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Releive representation of the Benelux with the river Maas through it
+    Visual of ranges of weight and length of different desert rodents Arizona
   </div>
 </div>
 
@@ -175,28 +182,25 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="../images/river-maas.jpg" class="project-hero-img img-fluid" alt="Relieve representation of the Benelux with the river Maas through it"></p>
+<p><img src="../images/measures-rodents.jpg" class="project-hero-img img-fluid" alt="Visual of ranges of weight and length of different desert rodents Arizona"></p>
 <div class="project-meta">
 <div class="meta-item">
 <p>📅 March 2026</p>
 </div>
 <div class="meta-item">
-<p>🛠️ R, rayshader, maps</p>
+<p>🛠️ R, ggplot2, dplyr <!-- ::: --> <!-- ::: {.meta-item} --> <!-- 📊 [Data source](https://example.com/data) --> <!-- ::: --> <!-- ::: {.meta-item} --> <!-- 💻 [Code on GitHub](https://github.com/yourusername/repo) --></p>
 </div>
-<!-- ::: {.meta-item} -->
-<!-- 📊 [Data source](https://example.com/data) -->
-<!-- ::: -->
-<!-- ::: {.meta-item} -->
-<!-- 💻 [Code on GitHub](https://github.com/yourusername/repo) -->
-<!-- ::: -->
-<!-- ::: -->
+</div>
 <section id="what-why" class="level2">
 <h2 class="anchored" data-anchor-id="what-why">What &amp; Why</h2>
-<p>At the time I was dating someone living in Liege where the River Meuse goes through so I made this visual to see how, we looking at the river from our separate houses, we were looking at the same river. Afterwards I also added the Rhine river to see all the different places I’ve been to that are in the banks of these two rivers.</p>
+<p>This graph is a bit of a busy one but it’s trying to give a vibe for lengths and weights of rodents, in general and per species. You can see overall and typical ranges and also have an idea for how chubby those mice are.</p>
+</section>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach</h2>
+<p>Rodents are ordered left to right on alphabetical order while you can see boxplots and outliers for both length and weight in different facets, one on top of the other to allow for easy comparison.</p>
 
 
 </section>
-</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

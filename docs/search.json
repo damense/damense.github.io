@@ -54,5 +54,61 @@
     "title": "About",
     "section": "",
     "text": "I’m a data scientist working in pharmaceutical manufacturing, where I focus on process analytics and data science. My day-to-day involves turning complex manufacturing data into clear, actionable insights — often with R, ggplot2, and Shiny.\nI care about making data visualizations that are not just accurate but genuinely useful and interesting to look at. I’m a regular participant in TidyTuesday and enjoy the challenge of finding stories in unfamiliar datasets.\n\n\nI’m currently expanding into:\n\nD3.js for interactive, web-native data visualization\nBayesian statistics & causal inference via Richard McElreath’s Statistical Rethinking\nData strategy and governance through a course at Imperial College and Simplilearn\n\n\n\n\nPrimary: R (tidyverse, ggplot2, Shiny) · Git · Quarto\nGrowing: Python (pandas, numpy) · D3.js · JavaScript · SQL\nDomain: GxP environments · process analytics · statistical process control · equivalence testing · mixed models\n\n\n\n\nGitHub\nLinkedIn\nEmail: d.mendsev@gmail.com"
+  },
+  {
+    "objectID": "projects/trains-feb.html#what-why",
+    "href": "projects/trains-feb.html#what-why",
+    "title": "Interrail trip February",
+    "section": "What & Why",
+    "text": "What & Why\nI love traveling through Europe by train and every time I do I share on my social networks the maps of the trips I make. Initially I shared relatively simple maps made by the Rail Planner app but they didn’t look accurate enough. That took me down a rabbit hole I’m still in."
+  },
+  {
+    "objectID": "projects/trains-feb.html#approach",
+    "href": "projects/trains-feb.html#approach",
+    "title": "Interrail trip February",
+    "section": "Approach",
+    "text": "Approach\nI get the railway data from OSM, then look up the station coordinates using the DB API and use dodgr to calculate the shortest path from station to station along the railways This I lay over a political map of Europe. Then I use elevatr to get the elevation of each of the different pixels which I use for coloring the map."
+  },
+  {
+    "objectID": "projects/age-gap.html#what-why",
+    "href": "projects/age-gap.html#what-why",
+    "title": "Age gaps in movie couples across the years",
+    "section": "What & Why",
+    "text": "What & Why\nI was curious about the age gap evolution through time wishing that they would narrow the closer we are to today. The message as always ended up being more complicated. The maximum age gap has been decreasing since the early 2000s"
+  },
+  {
+    "objectID": "projects/age-gap.html#approach",
+    "href": "projects/age-gap.html#approach",
+    "title": "Age gaps in movie couples across the years",
+    "section": "Approach",
+    "text": "Approach\nThe basic plot is a relatively straight forward scatterplot. The magic happened when checking actors that appear multiple times in the dataset and see the age of all their onscreen partners at the time of each of their film. The using color for showing each of the actors and text to give an explanation to the line joining the dots."
+  },
+  {
+    "objectID": "projects/measures-rodents.html#what-why",
+    "href": "projects/measures-rodents.html#what-why",
+    "title": "Desert Rodents",
+    "section": "What & Why",
+    "text": "What & Why\nThis graph is a bit of a busy one but it’s trying to give a vibe for lengths and weights of rodents, in general and per species. You can see overall and typical ranges and also have an idea for how chubby those mice are."
+  },
+  {
+    "objectID": "projects/measures-rodents.html#approach",
+    "href": "projects/measures-rodents.html#approach",
+    "title": "Desert Rodents",
+    "section": "Approach",
+    "text": "Approach\nRodents are ordered left to right on alphabetical order while you can see boxplots and outliers for both length and weight in different facets, one on top of the other to allow for easy comparison."
+  },
+  {
+    "objectID": "projects/tornados-kfc.html#what-why",
+    "href": "projects/tornados-kfc.html#what-why",
+    "title": "Tornadoes on the Fried chicken chef states",
+    "section": "What & Why",
+    "text": "What & Why\nThe dataset contained a historical overview of tornadoes in the US and an meme came to memory where you could see that the states of Minnesota, Iowa, Missouri, Kentucky, Arkansas, Tennessee and Louisiana formed the silhouette of a chef with a plate of food on their hands. Since the food corresponds to the state of Kentucky, it made sense to think of it as fried chicken. I was also curious to see if the incidence of tornadoes had increase with time and it does appear so."
+  },
+  {
+    "objectID": "projects/tornados-kfc.html#approach",
+    "href": "projects/tornados-kfc.html#approach",
+    "title": "Tornadoes on the Fried chicken chef states",
+    "section": "Approach",
+    "text": "Approach\nYou can see the aforementioned chef and next to each of the states, a barchart of number of tornadoes. Moreover, for higher magnitude tornadoes, a line is drawned from the coordinates where it started using color for magnitude and length for the miles it traveled."
   }
 ]
